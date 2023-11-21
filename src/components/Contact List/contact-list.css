@@ -1,0 +1,60 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #73e8c4;
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20px;
+    color: #011579;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 2px solid #011579;
+    padding: 12px;
+}
+
+.headings {
+    text-align: left;
+    font-size: 18px;
+
+}
+
+.optionTd {
+    text-align: center;
+}
+
+.deleteBtn {
+    background-color: #008dff;
+    font-weight: 500;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px 5px 10px;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.addBtn {
+    margin-bottom: 30px;
+    background-color: #00e749;
+    border: none;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+}
